@@ -1,0 +1,35 @@
+#logSign {
+    width: 100%;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#decoupeConnexion {
+    width: 100%;
+    min-width: 40%;
+    height: 1000px;
+    position: relative;
+    top: 0;
+    z-index: 6;
+    background-color: #4C4C4C;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 35%);
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+#decoupeConnexion label {
+    color: #08CCA4;
+}
+
+#decoupeInscription {
+    width: 100%;
+    min-width: 40%;
+    height: 750px;
+    position: relative;
+    top: -30em;
+    z-index: 6;
+    /* background-color: chocolate; */
+}

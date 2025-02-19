@@ -1,0 +1,194 @@
+body {
+    padding-top: 120px;
+    
+
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 100;
+    /* background-color: brown; */
+}
+
+#logoHeader {
+    width: 60%;
+    display: block;
+    justify-content: flex-start;
+    margin-top: 0.4em;
+    /* background-color: aqua; */
+}
+
+#logoHeader img {
+    width: 20%;
+    min-width: 200px;
+}
+
+
+/* sigles des différents réseaux avec fontawesome  */
+
+.menu a i {
+    font-size: 30px;
+    color: #4c4c4c;
+    padding-top: 0.5em;
+    justify-content: center;
+}
+
+.menu a i:hover {
+    color: #08CCA4;
+}
+
+
+/* section qui contiennent les a avec les fontawesome des réseaux sociaux */
+
+#SocialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* icon menu burger */
+
+.toggle_btn {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.toggle_btn span {
+    width: 100%;
+    height: 6px;
+    /* la span étant un élément de type inline,
+    il faut mettre un display bloc 
+     car sinon elle ne comprend pas les width et les hauteurs */
+    display: block;
+    background-color: #08CCA4;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.toggle_btn span::before {
+    content: '';
+    height: 6px;
+    width: 100%;
+    background-color: #08CCA4;
+    position: absolute;
+    /* top: -26px; */
+    right: 0;
+    transform: translateY(-27px);
+    cursor: pointer;
+}
+
+.toggle_btn span::after {
+    content: '';
+    height: 6px;
+    width: 100%;
+    background-color: #08CCA4;
+    position: absolute;
+    /* top: 26px; */
+    right: 0;
+    transform: translateY(27px);
+    cursor: pointer;
+}
+
+.toggle_btn.active span {
+    /*on cible la span quand la div qui la contient 
+    a la class toggle_btn + la classe active*/
+    /*opacity: 0; permet de faire disparaitre la span
+    + before + after or on veut garder les before et after donc on utilise un bgc transparent*/
+    background-color: transparent;
+}
+
+.toggle_btn.active span::before {
+    transform: translateY(0) rotateZ(45deg);
+}
+
+.toggle_btn.active span::after {
+    transform: translateY(0) rotateZ(-45deg);
+}
+
+
+/* partie ou le menu burger fais apparaitre oudisparaitre la div */
+
+
+/* div qui contient la nav du header */
+
+.menu {
+    min-width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    box-sizing: border;
+    z-index: 7;
+}
+
+.menu a {
+    width: 80%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: black; */
+}
+
+.menu a:hover {
+    color: #08CCA4;
+}
+
+.nav {
+    /* margin-right: -20%; */
+    display: none;
+    transition-duration: 0.2s;
+}
+
+.nav_open {
+    display: block;
+    /* margin-right: 0; */
+    transition-duration: 0.2s;
+}
+
+
+/* section avec tous les boutons du header */
+
+#menuHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    /* background-color: hotpink; */
+}
+
+
+/* section comprenant les boutons du header + la nav */
+
+#boutonsEtNav {
+    /* border: solid green 2px; */
+    /* display: flex;
+    flex-direction: row;*/
+    width: 100%;
+    margin-top: 10px;
+    /* align-content: space-around; */
+}

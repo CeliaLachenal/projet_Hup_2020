@@ -1,0 +1,405 @@
+            /* body {
+                width: 100%;
+                
+            } */
+            /* *********MAIN********* */
+            
+            main {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #imgSousHeader {
+                width: 100%;
+                height: 1200px;
+                background-image: url(images/png/19-05-20-photo-sous-header-sombre.png);
+                clip-path: polygon(0 0, 100% 0, 100% 30%, 0 50%);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            #fond_hupNoir {
+                width: 150px;
+                height: 400px;
+                background-color: #fff;
+                clip-path: polygon(0 16%, 100% 1%, 100% 86%, 0 100%);
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                top: 200px;
+                left: 100px;
+            }
+            
+            #hupNoir {
+                width: 40%;
+                /* height: 60%; */
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            
+            h1,
+            h2,
+            h3 {
+                font-family: 'Oswald', sans-serif;
+                font-weight: 300;
+                text-transform: uppercase;
+                margin-top: 0.3em;
+                margin-bottom: 0.3em;
+            }
+            
+            h1,
+            h3 {
+                font-size: 45px;
+                color: #fff;
+            }
+            
+            h2 {
+                font-size: 90px;
+                color: #08CCA4;
+                /* margin-top: -10px; */
+            }
+            
+            h4 {
+                font-family: 'Oswald', sans-serif;
+                /* font-family: 'Poppins', sans-serif; */
+                font-size: 40px;
+                font-weight: 300;
+                color: #08CCA4;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 1em;
+            }
+            
+            h5 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 35px;
+                margin-top: 10px;
+            }
+            
+            #titresSousHeader {
+                width: 70%;
+                /* margin-left: 400px; */
+                position: absolute;
+                top: 160px;
+                left: 300px;
+                background-color: darkmagenta;
+                text-align: center;
+                /* margin-left: 10px;
+                margin-right: 10px; */
+            }
+            
+            .boutonDecouvrir {
+                width: 120px;
+                height: 50px;
+                text-align: center;
+                background-color: #08CCA4;
+                border-radius: 5px;
+                margin: 10px 2px;
+                border: none;
+            }
+            
+            .boutonDecouvrir a {
+                text-align: center;
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                color: #fff;
+                font-size: 18px;
+            }
+            /* .boutonDecouvrir:hover {
+                width: 165px;
+                height: 65px;
+             
+            } */
+            /* ********PARTIE CONCERNANT LA 1ERE DECOUPE SOMBRE**********  */
+            
+            #decoupeFonce1 {
+                width: 100%;
+                max-height: 1200px;
+                clip-path: polygon(0 25%, 100% 5%, 100% 95%, 0 75%);
+                background-color: #4c4c4c;
+                /* position: absolute;
+                top: ; */
+                margin-top: -900px;
+                z-index: 6;
+            }
+            
+            #concept {
+                width: 100%;
+                min-height: 40%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 1em;
+                background-color: pink;
+            }
+            
+            #concept button {
+                margin-top: 50px;
+            }
+            
+            #concept img {
+                width: 70%;
+                /* background-color: red; */
+            }
+            
+            #contenuDecoupe1 {
+                width: 80%;
+                height: 1200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                /* margin-top: 2em; */
+                z-index: 6;
+                background-color: green;
+            }
+            
+            #hupOne {
+                width: 20%;
+                height: 800px;
+                margin-top: 2em;
+                clip-path: polygon(0 10%, 100% 6%, 100% 94%, 0 90%);
+                background-color: #fff;
+            }
+            
+            #hupOne img {
+                width: 40%;
+                display: block;
+                position: relative;
+                /* poussé de la moitié de hauteur du référent */
+                top: 50%;
+                left: 30%;
+                /* tiré de la moitié de sa propre hauteur */
+                transform: translateY(-50%);
+                justify-content: center;
+            }
+            /* ***************1ère DECOUPE BLANCHE : formulaire de contact********** */
+            
+            #decoupeBlc {
+                background-color: red;
+                width: 100%;
+                /* height: 1300px; */
+                /*position: absolute;
+                top: 1000px; */
+                z-index: 6;
+                clip-path: polygon(0 5%, 100% 20%, 100% 80%, 0 94%);
+                margin-top: -405px;
+            }
+            
+            #contenuDecoupeBlc {
+                padding-top: 350px;
+                padding-bottom: 350px;
+            }
+            
+            #contact_form {
+                margin-top: -50px;
+            }
+            
+            #HupOneForm {
+                width: 30%;
+                height: 580px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: -100px;
+                /* background-color: burlywood; */
+            }
+            /* #HupOneForm img {
+                margin-top: 600px;
+            } */
+            
+            #violet {
+                width: 20%;
+            }
+            
+            #vert {
+                width: 15%;
+            }
+            
+            #bleu {
+                width: 10%;
+            }
+            
+            #FormAndImg {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: left;
+                margin-top: 100px;
+            }
+            
+            label {
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color: #252525;
+            }
+            
+            .inputs {
+                /* width: 506px; */
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                /* background-color: orange; */
+            }
+            
+            .input_text {
+                /* width: 500px; */
+                border: 2px solid #08cca4;
+                border-radius: 5px;
+                height: 30px;
+            }
+            
+            #message {
+                height: 120px;
+            }
+            
+            form p {
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            form {
+                width: 50%;
+                height: 800px;
+                /* margin-top: 50px; */
+                margin-left: auto;
+                margin-right: auto;
+                /* border: 3px solid #004c4c; */
+                /* background-color: blueviolet; */
+            }
+            
+            .btn_form {
+                width: 120px;
+                height: 50px;
+                background-color: #08cca4;
+                border-radius: 5px;
+                border: none;
+                color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                cursor: pointer;
+                margin-bottom: 1em;
+            }
+            /* ***********2ème découpe sombre : quelques chiffres*********** */
+            
+            #decoupeFonce2 {
+                width: 100%;
+                height: 1100px;
+                clip-path: polygon(0 20%, 100% 0, 100% 70%, 0 80%);
+                background-color: #4c4c4c;
+                margin-top: -450px;
+                z-index: 6;
+            }
+            
+            #contenuDecoupeFonce2 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: salmon;
+                margin-top: 100px;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                top: 35%;
+                transform: translateY(-50%);
+            }
+            
+            #titreChiffres {
+                width: 100%;
+                margin-top: 0.5em;
+                margin-bottom: 2em;
+            }
+            
+            .chiffres {
+                min-width: 200px;
+                min-height: 200px;
+                background-color: #fff;
+                box-shadow: 5px 5px 10px 3px rgba(16, 16, 16, 0.84);
+                text-align: center;
+                margin-right: 70px;
+                margin-left: 70px;
+            }
+            
+            .chiffres p {
+                color: #252525;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 200;
+                font-size: 20px;
+                /* margin-top: -60px; */
+            }
+            
+            .carresBlc {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: springgreen;
+            }
+            
+            footer {
+                margin-top: -650px;
+            }
+            
+            @media screen and (max-width: 500px) {
+                body {
+                    width: 100%;
+                }
+                /* #fond_hupNoir {
+                    display: none;
+                } */
+                h1,
+                h3 {
+                    font-size: 22px;
+                }
+                h2 {
+                    font-size: 44px;
+                }
+                h4 {
+                    font-size: 22px;
+                }
+                #titresSousHeader {
+                    width: 80%;
+                    position: absolute;
+                    top: 200px;
+                    left: 50px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                #hupOne {
+                    display: none;
+                    /* min-width: 30%;
+                    max-height: 50%; */
+                }
+                #contenuDecoupe1 {
+                    width: 100%;
+                }
+                #concept {
+                    width: 100%;
+                    margin-top: 1em;
+                }
+                #HupOneForm {
+                    display: none;
+                }
+                label {
+                    font-size: 15px;
+                }
+                #contenuDecoupeFonce2 {
+                    min-height: 1500px;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
+            }
