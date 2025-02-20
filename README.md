@@ -1,6 +1,8 @@
 # projet_Hup_2020
 Site vitrine de vente (en BtoB) de cendriers connectés à installer dans les espaces fumeurs des entreprises. 
 
+le projet n'a pas été retouché il est tel que je l'ai réalisé à l'époque.
+
 Le contexte : 
 J'ai réalisé ce projet personnel en 2020 durant ma formation de développeur web et web mobile. 
 J'avais un brief que je résume dans la partie "le concept". 
